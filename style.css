@@ -8,8 +8,9 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    border-bottom: 150px ;
 }
 .half-width{
     width: 50%;
@@ -29,4 +30,22 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+/* this is second section */
+
+
+
+ .download-resume{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(223, 207, 38), tomato);
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5%;
+    
+
+}
+.dream-big{
+    background-position: right;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
 }
